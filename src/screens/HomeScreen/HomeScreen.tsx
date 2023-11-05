@@ -1,7 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import { FC } from "react";
 import { View } from "react-native";
-import { Message } from "src/components/Message";
+
+import { Message } from "@/components/Message";
 
 import { styles } from "./style";
 

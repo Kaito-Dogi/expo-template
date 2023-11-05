@@ -16,9 +16,8 @@
         "name": "eslint-plugin-import-access"
       }
     ],
-    "baseUrl": "./",
     "paths": {
-      "src/*": ["./src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
