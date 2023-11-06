@@ -1,8 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { FC } from "react";
-import { View } from "react-native";
-
-import { Message } from "@/components/Message";
+import { Text, View } from "react-native";
 
 import { styles } from "./style";
 
@@ -16,7 +14,7 @@ type Props = {
 export const HomeScreen: FC<Props> = ({ message }) => {
   return (
     <View style={styles.container}>
-      <Message message={message} />
+      <Text>{message}</Text>
       <StatusBar style="auto" />
     </View>
   );
