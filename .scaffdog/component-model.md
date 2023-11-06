@@ -7,8 +7,7 @@ questions:
   model:
     message: "Please select a model."
     choices:
-      - event
-      - ticket
+      - user
   name: "Please enter a component name."
 ---
 
@@ -30,7 +29,7 @@ export const {{ inputs.model | pascal }}{{ inputs.name | pascal }}: FC<Props> = 
 };
 ```
 
-# `{{ inputs.model | camel }}/{{ inputs.model | pascal }}{{ inputs.name | pascal }}/styles.ts`
+# `{{ inputs.model | camel }}/{{ inputs.model | pascal }}{{ inputs.name | pascal }}/{{ inputs.model | pascal }}.styles.ts`
 
 ```tsx
 import { StyleSheet } from "react-native";
