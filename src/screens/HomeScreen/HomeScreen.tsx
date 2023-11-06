@@ -1,21 +1,21 @@
 import { StatusBar } from "expo-status-bar";
 import { FC } from "react";
-import { Text, View } from "react-native";
+import { SafeAreaView, Text } from "react-native";
 
 import { styles } from "./style";
 
 type Props = {
-  message: string;
+  text: string;
 };
 
 /**
  * @package
  */
-export const HomeScreen: FC<Props> = ({ message }) => {
+export const HomeScreen: FC<Props> = ({ text }) => {
   return (
-    <View style={styles.container}>
-      <Text>{message}</Text>
+    <SafeAreaView style={styles.container}>
+      <Text>{text}</Text>
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 };
