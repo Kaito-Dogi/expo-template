@@ -1,24 +1,24 @@
-type Colors =
-  | "PRIMARY"
-  | "ON_PRIMARY"
-  | "SECONDARY"
-  | "ON_SECONDARY"
-  | "BACKGROUND"
-  | "ON_BACKGROUND"
-  | "SURFACE"
-  | "ON_SURFACE"
-  | "ERROR";
+type Color =
+  | "primary"
+  | "onPrimary"
+  | "secondary"
+  | "onSecondary"
+  | "background"
+  | "onBackground"
+  | "surface"
+  | "onSurface"
+  | "error";
 
 export const colors: {
-  [key in Colors]: `#${string}`;
+  [key in Color]: `#${string}`;
 } = {
-  PRIMARY: "#fff",
-  ON_PRIMARY: "#222",
-  SECONDARY: "#fff",
-  ON_SECONDARY: "#222",
-  BACKGROUND: "#fff",
-  ON_BACKGROUND: "#222",
-  SURFACE: "#fff",
-  ON_SURFACE: "#222",
-  ERROR: "#f00",
+  primary: "#fff",
+  onPrimary: "#222",
+  secondary: "#fff",
+  onSecondary: "#222",
+  background: "#fff",
+  onBackground: "#222",
+  surface: "#fff",
+  onSurface: "#222",
+  error: "#f00",
 };
