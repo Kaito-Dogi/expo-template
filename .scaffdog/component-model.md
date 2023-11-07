@@ -17,7 +17,7 @@ questions:
 import { FC } from "react";
 import { View } from "react-native";
 
-import { styles } from "./styles";
+import { styles } from "./{{ inputs.model | pascal }}{{ inputs.model | pascal }}.styles";
 
 type Props = {};
 
@@ -27,7 +27,7 @@ export const {{ inputs.model | pascal }}{{ inputs.name | pascal }}: FC<Props> = 
 };
 ```
 
-# `{{ inputs.model | camel }}/{{ inputs.model | pascal }}{{ inputs.name | pascal }}/{{ inputs.model | pascal }}.styles.ts`
+# `{{ inputs.model | camel }}/{{ inputs.model | pascal }}{{ inputs.name | pascal }}/{{ inputs.model | pascal }}{{ inputs.model | pascal }}.styles.ts`
 
 ```tsx
 import { StyleSheet } from "react-native";
