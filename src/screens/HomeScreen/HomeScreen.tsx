@@ -7,9 +7,7 @@ type Props = {
   text: string;
 };
 
-/**
- * @package
- */
+/** @package */
 export const HomeScreen: FC<Props> = ({ text }) => {
   return (
     <SafeAreaView style={styles.container}>

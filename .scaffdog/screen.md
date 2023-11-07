@@ -17,9 +17,7 @@ import { styles } from "./styles";
 
 type Props = {};
 
-/**
- * @package
- */
+/** @package */
 export const {{ inputs.name | pascal }}Screen: FC<Props> = ({}) => {
   return <SafeAreaView style={styles.container}></SafeAreaView>;
 };
@@ -32,9 +30,7 @@ import { StyleSheet } from "react-native";
 
 import { colors } from "@/styles/colors";
 
-/**
- * @package
- */
+/** @package */
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
