@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { SafeAreaView, Text } from "react-native";
 
-import { styles } from "./styles";
+import { styles } from "./HomeScreen.styles";
 
 type Props = {
   text: string;
