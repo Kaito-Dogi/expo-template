@@ -13,7 +13,7 @@ questions:
 import { FC } from "react";
 import { View } from "react-native";
 
-import { styles } from "./{{ inputs.model | pascal }}.styles";
+import { styles } from "./{{ inputs.name | pascal }}.styles";
 
 type Props = {};
 
@@ -23,7 +23,7 @@ export const {{ inputs.name | pascal }}: FC<Props> = ({}) => {
 };
 ```
 
-# `{{ inputs.name | pascal }}/{{ inputs.model | pascal }}.styles.ts`
+# `{{ inputs.name | pascal }}/{{ inputs.name | pascal }}.styles.ts`
 
 ```tsx
 import { StyleSheet } from "react-native";
